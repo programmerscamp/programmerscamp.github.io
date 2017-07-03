@@ -5,6 +5,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Login form </title>
+	<link rel="stylesheet" href="css/login_style.css">
 	<!-- Bootstrap CSS CDN -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<!-- cssanimation -->
@@ -22,40 +23,37 @@
 <!-- BODY -->
 
 <body class="login">
-	<p class="login-bar"> PROGRAMMERS CAMP
-		<br /> <br/>
-		<img class="avatar" align="middle" src="img_avatar2.png" width="50px" alt="Avatar" /> <br />
+	<div id="login_view">
+		<h1 class="cssanimation hu__hu__ infinite" id="login_heading"> Programmer's Camp<br /></h1>
+		<img class="avatar" src="images/login_avatar.png" width="100px" alt="login_avatar" />
+		<br /><br/>
 
 		<form autocomplete="off">
 
 
 			<label><b>Username : </b></label>
-			<input id="name" type="text" /><br /><br />
-
-			<label><b>Password : </b></label>
+			<input id="name" type="text" required><br /><br />
+			<label><b>Password :</b></label>
 			<input id="pass" type="password" required>
 			<br/>
 
 
 			<button type="submit"> Login </button>
 		</form>
-	</p>
+
+		<p class="forget-pass">
+			<br />
+			<a href="#">Signup</a><br/> <br/> Forgot password? Enter your Email:
+		</p>
+		<input type="email" placeholder="Enter your email">
 
 
-
-
-	<p class="forget-pass">
-		<br />
-		<a href="#">signup</a><br/> <br/> if password forgotten, enter email
-	</p>
-	<input type="email" placeholder="Enter email">
-
-
-	<!-- Footer -->
-	<br /> <br />
-	<p style>
-		<em>Programmers Camp 🌸🌸</em>
-	</p>
+		<!-- Footer -->
+		<br /> <br />
+		<p style>
+			<em>Programmers Camp 🌸🌸</em>
+		</p>
+	</div>
 </body>
 
 </html>
