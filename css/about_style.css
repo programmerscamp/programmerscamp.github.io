@@ -7,8 +7,6 @@ h1#Heading {
 h2#Intro {
     font-size: 30px;
 }
-#Webpage {
-}
 
 #Intro {
     text-align: center;
@@ -17,6 +15,7 @@ h2#Intro {
 #Goalset {
     text-align: center;
 }
+
 
 #MainGoal {
     width:200px;
