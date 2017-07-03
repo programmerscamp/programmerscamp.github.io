@@ -1,0 +1,58 @@
+/*WORKING ON IMAGE */
+
+.first {
+ 	border-color: white;		border-width:1px;
+ 	border-style: solid;		 border-radius: 3px; 
+ 	width: 70%;				  margin-left:auto;   
+ 	margin-right:auto;			display:block;
+}
+
+
+/*WORKING ON TITLE*/
+.title {
+	color: Blue;			text-align:center;
+	font-size: 20px;		 font-family: Monospace; 
+}
+
+
+/*WORKING ON THE BACKGROUND*/
+.body {
+	background-color: #67823d;
+}
+
+/*Working On Login*/
+.form{
+	text-align:center;		color:white;
+	font-family:Times New Roman;
+}
+/*  LOGIN PORTION */
+
+.login {
+	background-color:#67823d;
+}
+
+.login-head {
+	text-align:center;		 font-family: Times New Roman;
+	white-space:nowrap;		overflow: 12em;
+	overflow: hidden;		 border:2px dotted brown;
+	width: 100px; 
+}
+
+
+.avatar {
+	display: block;			margin-left:auto;
+	margin-right:auto;		border-color:white;
+	border-width:1px;		border-style:solid;
+}
+
+
+.login-bar{
+	text-align:center;		font-family:monospace;
+	color:blue;				font-size:20px;
+}
+
+.forget-pass{
+	text-align:center;
+}
+
+
