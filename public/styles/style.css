@@ -2,15 +2,12 @@ html, body {
   height: 100%;
   font-family: 'Lato', sans-serif;
   color: #1a1a1a;
+  overflow: hidden;
 }
 
 h1 {
   font-weight: 300;
   text-transform: uppercase;
-}
-
-p {
-  font-size: 1.2em;
 }
 
 .bg {
@@ -32,4 +29,15 @@ p {
 
 .bg p {
   text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+@media only screen and (max-width: 413px) {
+  .bg h1 {
+    font-size: 2.4em;
+  }
+
+  .bg p {
+    font-size: 1em;
+  }
 }
